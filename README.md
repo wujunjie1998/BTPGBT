@@ -12,7 +12,6 @@ If you find our work useful, please cite:
   journal={arXiv preprint arXiv:2310.13362},
   year={2023}
 }
-}
 ```
 
 ## Data
