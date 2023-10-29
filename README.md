@@ -6,13 +6,12 @@ data.
 
 If you find our work useful, please cite:
 ```
-@misc{wu2023general,
-      title={Towards General Error Diagnosis via Behavioral Testing in Machine Translation}, 
-      author={Junjie Wu and Lemao Liu and Dit-Yan Yeung},
-      year={2023},
-      eprint={2310.13362},
-      archivePrefix={arXiv},
-      primaryClass={cs.CL}
+@article{wu2023towards,
+  title={Towards General Error Diagnosis via Behavioral Testing in Machine Translation},
+  author={Wu, Junjie and Liu, Lemao and Yeung, Dit-Yan},
+  journal={arXiv preprint arXiv:2310.13362},
+  year={2023}
+}
 }
 ```
 
