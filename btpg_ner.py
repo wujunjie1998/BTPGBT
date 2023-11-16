@@ -355,8 +355,8 @@ with open(data_path + '/old_en_text', 'w') as f_out:
         f_out.write('\n')
 
 
-os.system("perl mosesdecoder/scripts/tokenizer/detokenizer.perl -a -no-escape -l en < " + data_path + "/train_en >  " + data_path + "/train_en_detok")
-os.system("perl mosesdecoder/scripts/tokenizer/detokenizer.perl -a -no-escape -l en < " + data_path + "/old_en_text >  " + data_path + "/old_en_text")
+os.system("perl detokenizer.perl -a -no-escape -l en < " + data_path + "/train_en >  " + data_path + "/train_en_detok")
+os.system("perl detokenizer.perl -a -no-escape -l en < " + data_path + "/old_en_text >  " + data_path + "/old_en_text")
 
 train_en = []
 #old_en_text = []
